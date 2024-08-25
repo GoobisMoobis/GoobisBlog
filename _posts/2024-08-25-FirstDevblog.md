@@ -3,7 +3,7 @@ title: 'My first developemt update! ("DevBlog if you will")'
 date: 2024-08-25
 ---
 ## Yeah... I did not go to sleep like I said i would last blog post
-Instead, I stayed up for a while and ended up getting into an argument with one of the devs ([White Turtle](https://www.roblox.com/users/1313328468/profile))working on my current game I'm making on Roblox.
+Instead, I stayed up for a while and ended up getting into an argument with one of the devs ([White Turtle](https://www.roblox.com/users/1313328468/profile)) working on my current game I'm making on Roblox.
 #### I realize I haven't talked about my current game yet... here's a bit about it.
 It's called Modern RTS, or at least it is right now. It's based on my current favorite game on Roblox, [Normal Real-time strategy game.](https://www.roblox.com/games/8590762007/normal-real-time-strategy-game-RTS-BETA) It's a strategy game i'm working on with my IRL freind [Phoenix](https://www.roblox.com/users/4892317634/profile), an online friend [whiteturtle0923](https://www.roblox.com/users/1313328468/profile), with another guy, [Kuro](https://www.roblox.com/users/1218057944/profile) as our main playtester. The game is hosted on our dev group, [Yimello Studios](https://www.roblox.com/groups/33377712/Yimello-studios#!/about).
 ### Anyways, here are some features we've added so far:
@@ -19,7 +19,7 @@ It's called Modern RTS, or at least it is right now. It's based on my current fa
 
 ----
 and what me and WhiteTurtle got into an argument about, the MENU/LOBBY
-****
+----
 So whats the problem?
 **PHYSICAL LOBBY VS MENU**
 
