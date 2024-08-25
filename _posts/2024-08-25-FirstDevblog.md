@@ -1,5 +1,5 @@
 ---
-title: "My first developemt update! ("DevBlog if you will")
+title: 'My first developemt update! ("DevBlog if you will")'
 date: 2024-08-25
 ---
 ## Yeah... I did not go to sleep like I said i would last blog post
