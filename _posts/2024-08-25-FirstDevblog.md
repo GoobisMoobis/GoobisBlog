@@ -37,4 +37,4 @@ Who knows, maybe he'll eventually start his own blog if I pressure him enough an
 ****
 Anyway, it's officially past 1:00 AM, so imma go to bed. Maybe tommorow when my frontal lobe is functioning better i'll realize I'm dumb snd change my mind.
 
-bye!
+bye! :)
