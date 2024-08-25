@@ -1,6 +1,7 @@
 ---
 title: 'My first developemt update! ("DevBlog if you will")'
 date: 2024-08-25
+tags: DevBlog
 ---
 ## Yeah... I did not go to sleep like I said i would last blog post
 Instead, I stayed up for a while and ended up getting into an argument with one of the devs ([White Turtle](https://www.roblox.com/users/1313328468/profile))working on my current game I'm making on Roblox.
