@@ -12,4 +12,4 @@ I decided to watch it, and it seemed way too good to be true, but I had school s
 
 What did I want my tampermonkey script to do?
 
-I wanted it to change a few things about this website: ![TEST](/docs/assets/y2mateDefault.png)
+I wanted it to change a few things about this website: ![TEST](docs/assets/y2mateDefault.png)
