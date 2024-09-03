@@ -14,6 +14,6 @@ However, here is some of the stuff I managed to do in my limited amount of time.
 
 That's it for now. Hopefully I'll be able to make more progress on the game this week :)
 
-*EDIT 4:57PM*
+**EDIT 4:57PM**
 
 Turns out I'll be free tommorrow! I'll be able to develop tomorrow, just not the day after :)
