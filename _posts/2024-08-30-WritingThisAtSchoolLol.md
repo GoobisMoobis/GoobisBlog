@@ -1,6 +1,7 @@
 ---
 title: "Writing this at school lol"
 date: 2024-08-30
+tags: "School"
 ---
 Somehow, despite all unblocked games being hoted on github, (just look up "___ unblocked") it isn't blocked, probably because our admins use it. We have free time in SRT (Student Resource Time) today, so while I'm in SRT, I'm writing this.
 
