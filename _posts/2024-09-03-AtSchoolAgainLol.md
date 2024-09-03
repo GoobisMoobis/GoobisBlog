@@ -10,5 +10,6 @@ However, here is some of the stuff I managed to do in my limited amount of time.
 * polish some admin systems, like the terminal and the admin gui
 * Make the skeleton of the Server Ban system
 * Talk to my friends about how developement was going
+* Made a Tampermonkey script for myself to make my blog look better when I view it (I almost made this one myself; just needed some help to change the favicon in chrome, and to move around a few HTML elements)
 
 That's it for now. Hopefully I'll be able to make more progress on the game this week :)
