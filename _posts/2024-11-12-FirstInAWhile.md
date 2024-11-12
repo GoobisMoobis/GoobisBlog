@@ -5,7 +5,7 @@ date: 2024-11-12
 
 If you look at the blog posts I've made thus far, you probably saw this one's date and thought, "Why was there such a long break?" tbh I just forgot about this lol.
 
-I came back just yesterday on my GitHub account to make another [blog for my faction I'm working on for NRTS!](https://goobismoobis.github.io/RationalityFactionAnnouncements/)
+I came back just yesterday on my GitHub account to make another [blog for my faction I'm working on for NRTS!](https://goobismoobis.github.io/RationalityFactionAnnouncements/2024/11/12/Welcome-to-the-RFA.html)
 
 > "Wait... NRTS? Faction? What happened to the development of your own RTS game?"
 
