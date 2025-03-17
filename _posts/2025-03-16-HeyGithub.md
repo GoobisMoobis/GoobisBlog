@@ -14,7 +14,7 @@ I recently restarted on my roblox studio high and thought I'd make a blog post a
 
 I quit Luau to do JavaScript, HTML, and CSS (web developement). I now know all of these pretty well, and randomly one day, [Phoenix (click here if you forget who he is)](https://goobismoobis.github.io/GoobisBlog/2024/08/25/FirstDevblog.html#:~:text=on%20with%20my-,IRL%20freind%20Phoenix,-%2C%20an%20online%20friend) asked me if I wanted to code a roblox game.
 
-I already had one project I was working on before I quit studio, but had wuit in the middle of making it's foundation and it was relatively basic.
+I already had one project I was working on before I quit studio, but had quit in the middle of making it's foundation and it was relatively basic.
 
 It is no longer basic.
 
@@ -73,7 +73,7 @@ Current textchat commands (Prefix: !):
 - Availbile to admins
   - **!admin/!admins/!a** opens a private text channel between admins (owners can see it too)
   - **!terminal/!t** will open the command terminal in which you can run both client-sided and server-sided code. Theres also many pre-built scripts for ready-use
-  - **The F2 key** will open a file explorer menu, in which you can see EVERY SINGLE ITEM in the ENTIRE game. (MASSIVE shoutout to [tyridge77](https://devforum.roblox.com/t/live-game-explorerv33/2693615)
+  - **The F2 key** will open a file explorer menu, in which you can see EVERY SINGLE ITEM in the ENTIRE game. (MASSIVE shoutout to [tyridge77](https://devforum.roblox.com/t/live-game-explorerv33/2693615))
   - **!admingui/!admgui/!ag** will open the pre-built admin gui where you can kick, ban, and send server-wide broadcasts
 - The only owner-exclusive command (exclusive to me, whiteturtle, and phoenix) is !owner/!owners/!o, for our private chat.
 
