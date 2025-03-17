@@ -357,3 +357,80 @@ now everything was almost perfect! Formatting code worked, long scripts looked g
 Everything... except client-sided code execution.
 
 So, again, I looked it up.
+
+[![Devforum answer says to use vLua](https://raw.githubusercontent.com/GoobisMoobis/GoobisBlog/refs/heads/my-pages/images/devforumvluaasanswer.png)](https://devforum.roblox.com/t/use-loadstring-on-client/886112#:~:text=Nov%20%2720-,You%20can%20use%20this%20module.%20vLua%3A%20Loadstring%20reimplemented%20in%20Lua%20%2D%20Roblox,-387)
+
+Boom! All I needed now was to use vLua in a client-sided script and add a remote (and an anticheat, again)!
+
+Until recently, this is how the terminal was, besides me adding premade scripts after I figured out client-sided stuff.
+
+And then I quit MRTS.
+
+And then I forgot about the terminal.
+
+Until recently, when i remembered I had the terminal. I imported it into URTG, but my god was it bad.
+
+Number one, vLua only supported lua. Not luau.
+
+Number two is that any time I wanted to run client-sided code, I had to require lua and send a remote to the client with the code I wanted to run.
+
+So ineficient.
+
+But I kept it that way. **[Until I found this.](https://devforum.roblox.com/t/live-game-explorerv33/2693615)**
+
+I was looking for an in-game file explorer, and I found one! Yippie!
+
+It had it's own console, it's own property editor,
+
+and it's own command bar.
+
+I already had the terminal, which was much better than a stinky command line, so I deleted the command line.
+
+However I saw that instead of using vLua, which was what I was expecting it to use, it was using vLuau.
+
+So, I looked it up, saw it supported not JUST lua, but ALSO LUAU, and replaced vLua (and my server-sided loadstring) with vLuau.
+
+## And now, my terminal is better than anything i've ever seen!
+
+After finding vLuau it gave me a burst of inspiration to make client-sided code execution better. Now, if you type `--Client (username)` as the first line in the terminal, it runs code on that person's client!
+
+All of a sudden I was getting comments from not only Phoenix, but also all my other friends who are admins for Yimello who were saying this was a cool system. They were reccomending premade scripts, etc.
+
+I will probably not ever open-source the terminal. There's too much to loose if someone finds a way to exploit the code.
+
+However, I'm not evil, so feel free to use the snippets I've provided and the advice I've found online to make your own!
+
+Just please remember to add an anticheat.
+
+One other thing I will share with you guys because I know a lot of you hate RegEx as much as me, is how to add the detector for the `--Client` stuff.
+
+```lua
+local lines = string.split(text, "\n")
+local firstLine = lines[1]
+
+local player = nil
+local splitString = string.split(firstLine, " ")
+
+
+if splitString[1] == "--Client" and splitString[2] then
+	local username = splitString[2]
+	username = string.gsub(username, "^%s*(.-)%s*$", "%1")
+
+	player = game.Players:FindFirstChild(username)
+
+	if player then
+		table.remove(lines, 1)
+		text = table.concat(lines, "\n")
+	else
+		text = "assert(false, 'Client \"" .. username .. "\" does not exist')"
+	end
+end
+```
+
+What this does is detect if I've added a `--Client (username)` line at the beggining of my terminal code execution, and if so, it will set a variable, player, to their username. if the player I've attempted to run code on doesn't exist, it sets `text` to that, as `text` will get ran by the loadstring. The line after this checks if player is nil, and if it is, it runs the vLuau loadstring on the server. otherwise, it runs it on the client that the `player` variable is set to.
+
+Anyways, this has been my admin terminal that I created from scratch. Thanks to WhiteTurtle for finding the syntax module, the devs of vLuau, that random guy from 2020 who made a devforum post, and everyone else who led me to make this super awesome terminal.
+
+<hr>
+
+goober
