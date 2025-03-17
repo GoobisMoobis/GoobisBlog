@@ -12,7 +12,7 @@ I'll try to start posting more regular updates on here. No promises!
 
 So, what is this blog about?
 
-![THE TERMINAL!](https://raw.githubusercontent.com/GoobisMoobis/GoobisBlog/refs/heads/my-pages/images/theterminalwithin.troductioncomments.png)
+![THE TERMINAL!](https://raw.githubusercontent.com/GoobisMoobis/GoobisBlog/refs/heads/my-pages/images/theterminalwithintroductioncomments.png)
 
 If you haven't heard me talk bout the terminal, please do what I said at the beggining of this post and read about URTG and MRTS
 
@@ -27,4 +27,6 @@ Then I realized 2 important things about roblox's basic command line interface
 1. It's really bad. There's no syntax highlighting, you can only write code on 1 line, it's just horrific
 2. I'm really bad at using it
 
-So, I looked up if there was a way to make a similar thing to the roblox command line.
+So, I did what every roblox dev has done at least 4 billion times: I looked up my problem on google.
+
+![Google search: how to run code through a textbox roblox](https://raw.githubusercontent.com/GoobisMoobis/GoobisBlog/refs/heads/my-pages/images/loadstringrobloxsearch.png)
