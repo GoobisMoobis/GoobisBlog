@@ -18,7 +18,7 @@ If you haven't heard me talk bout the terminal, please do what I said at the beg
 
 ## Without further ado, here is how I came up with the terminal, how I made it, etc
 
-When I originally started MRT I had no intention of making a terminal. Or even any sort of admin gui. So, what sparked my inspiration?
+When I originally started MRTS I had no intention of making a terminal. Or even any sort of admin gui. So, what sparked my inspiration?
 
 Well, it actually didn't start with MRTS, it started with a side project I was working on called noob factory tycoon. I was trying to run something from roblox's default command line, but it wasn't working. I kept getting an error.
 
@@ -48,7 +48,7 @@ After learning about loadstring and doing everything I needed to do to use it, I
 
 ```lua
 game.ReplicatedStorage.Remotes.RunCode.OnServerEvent:Connect(function(plr, text)
-  if table.find(require(game.ReplicatedStorage.Admins, plr.UserId) then
+  if table.find(require(game.ReplicatedStorage.Admins), plr.UserId) then
     loadstring(text)()
   end
 end)
