@@ -76,7 +76,7 @@ You see, I knew when starting this project that exploiting would be a problem. S
 
 And now, the prototype of the terminal was done! It had no syntax highlighting, but had multi-line, and code execution!
 
-Eventually, WhiteTurtlr caught on to what I was doing. He found (and I still don't know where) a syntax module.
+Eventually, WhiteTurtle caught on to what I was doing. He found (and I still don't know where) a syntax module.
 
 I unfortunately do not know the original coding of the syntax module, and WhiteTurtle doesn't remember where he found it. However, here is it's current version:
 
